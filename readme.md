@@ -17,7 +17,7 @@
 ### 若代码有不妥之处(bug)可联系:
 weibo:[mingchen3398](https://weibo.com/mingchen3398)
 
-Bilibili:[手动滑稽你爸爸](https://space.bilibili.com/86906776)
+Bilibili:[BILI_SHENHAN](https://space.bilibili.com/86906776)
 
 ```js
 //TODO
