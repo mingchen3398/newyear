@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-*{margin: 0;padding: 0;font-family: 'Poppins', sans-serif;}
-@media screen and (min-width:1025px){
-
-  body{
-    background: url('../images/bg.jpg');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (min-width: 1025px) {
+  body {
+    background: url("../images/bck.jpg");
     background-attachment: fixed;
     background-blend-mode: hard-light;
   }
-  
-  .container{
-    background: url(../images/bg.jpg);
-    width:80%;
+
+  .container {
+    background: url(../images/bck.jpg);
+    width: 80%;
     margin: 5% auto;
     padding: 11% 5%;
     background-attachment: fixed;
@@ -18,30 +21,30 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0 50px 50px rgba(0,0,0,0.5), 0 0 0 100px rgba(0,0,0,0.1);
+    box-shadow: 0 50px 50px rgba(245, 207, 207, 0.5), 0 0 0 100px rgba(218, 75, 75, 0.1);
   }
-  
-  .container h2{
+
+  .container h2 {
     text-align: center;
     font-size: 10em;
-    line-height: .7em;
+    line-height: 0.7em;
     color: #333;
     margin-top: -80px;
   }
-  
-  .container h2 span{
+
+  .container h2 span {
     display: block;
     font-weight: 400;
     letter-spacing: 6px;
-    font-size: .2em;
+    font-size: 0.2em;
   }
-  
-  .countdouwn{
+
+  .countdouwn {
     display: flex;
     margin-top: 50px;
   }
-  
-  .countdouwn div{
+
+  .countdouwn div {
     position: relative;
     width: 100px;
     height: 100px;
@@ -53,9 +56,9 @@
     font-size: 3em;
     font-weight: 500;
   }
-  
-  .countdouwn div:before{
-    content:'';
+
+  .countdouwn div:before {
+    content: "";
     position: absolute;
     bottom: -30px;
     left: 0;
@@ -63,24 +66,24 @@
     height: 35px;
     background: #ff0;
     color: #333;
-    font-size: .35em;
+    font-size: 0.35em;
     line-height: 35px;
     font-weight: 300;
   }
-  
-  .countdouwn #day:before{
-    content: 'Days';
+
+  .countdouwn #day:before {
+    content: "Days";
   }
-  
-  .countdouwn #hour:before{
-    content: 'Hours';
+
+  .countdouwn #hour:before {
+    content: "Hours";
   }
-  
-  .countdouwn #minute:before{
-    content: 'Minutes';
+
+  .countdouwn #minute:before {
+    content: "Minutes";
   }
-  
-  .countdouwn #second:before{
-    content: 'Seconds';
+
+  .countdouwn #second:before {
+    content: "Seconds";
   }
 }
