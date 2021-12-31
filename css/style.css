@@ -6,13 +6,13 @@
 }
 @media screen and (min-width: 1025px) {
   body {
-    background: url("../images/bck.jpg");
+    background: url("../images/bg.jpg");
     background-attachment: fixed;
     background-blend-mode: hard-light;
   }
 
   .container {
-    background: url(../images/bck.jpg);
+    background: url(../images/bg.jpg);
     width: 80%;
     margin: 5% auto;
     padding: 11% 5%;
